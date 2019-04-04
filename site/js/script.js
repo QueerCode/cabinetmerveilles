@@ -652,15 +652,3 @@ this.nq(c,a,r))k=!0,n++,-1==l?l=f.T:(t=this.i.b.I[t],t.Za=f.T),t=f.T;0==(f.jb&21
 I.ID=19;I.SD=20;I.CD=21;I.DD=22;I.ED=23;I.wN=24;I.ZO=0;I.prototype=n.extend(new za,{Hl:function(){return I.Ks},iq:function(){this.cursor="auto";this.B.h.cursor=this.cursor;return!0},action:function(a){switch(a){case I.zD:this.cursor="alias";break;case I.AD:this.cursor="auto";break;case I.BD:this.cursor="crosshair";break;case I.JD:this.cursor="text";break;case I.KD:this.cursor="not-allowed";break;case I.MD:this.cursor="all-scroll";break;case I.ND:this.cursor="nesw-resize";break;case I.OD:this.cursor=
 "ns-resize";break;case I.PD:this.cursor="nwse-resize";break;case I.QD:this.cursor="ew-resize";break;case I.RD:this.cursor="pointer";break;case I.TD:this.cursor="wait";break;case I.HD:this.cursor="help";break;case I.GD:this.cursor="pointer";break;case I.UD:this.cursor="zoom-in";break;case I.LD:this.cursor="auto";break;case I.FD:this.cursor="auto";break;case I.ID:this.cursor="col-resize";break;case I.SD:this.cursor="row_resize";break;case I.CD:this.cursor="copy";break;case I.DD:this.cursor="move";break;
 case I.ED:this.cursor="context-menu"}this.B.h.cursor=this.cursor;this.B.Pw()}});qd(O,sa)};
-
-
-	   	// Detection des ancien navigateurs qui ne supportent pas l'element Canvas
-		// Appelle une page par defaut
-	    if (!document.createElement("canvas").getContext)
-	    {
-			window.open("http://www.cabinetdesmerveilles.fr/", "_self");
-		}
-	
-
-
-  
